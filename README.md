@@ -60,8 +60,11 @@ Overall Model Fit (R^2): 0.4866
 Key Coefficients:
 
 Child Poverty Rate (Beta 1): -2.392  (p < 0.001)
+
 Child Poverty Squared (Beta_2): +3.908 (p < 0.001)
+
 Socioeconomic Index (Beta 3): +0.294 (p < 0.001)
+
 Total Enrollment (Beta 4): -8.51 * 10^-7 (p = 0.021)
 
 ## Data Sources:
