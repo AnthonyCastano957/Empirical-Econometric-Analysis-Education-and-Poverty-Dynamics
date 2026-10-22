@@ -9,7 +9,7 @@ and academic achievement across school districts. This was possible through merg
 district demographic covariates, and analyzing how economic scarcity impacts mean student test scores within each state.
 
 ## Authors and Contributors (Team 5)
-Abi Mangual (PowerPoint presentation and organizer)
+Abi Mangual (PowerPoint Presentation and Organizer)
 
 William Schriever (Research and Writing)
 
