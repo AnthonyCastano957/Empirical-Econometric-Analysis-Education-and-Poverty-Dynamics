@@ -22,13 +22,19 @@ What is the relationship between poverty and student achievement on a district l
 
 ## Methodology
 Our independent variables were as follows:
+
 Poverty Rate (SAIPE)
+
 SESAVG (Socioeconomic Status average 2005-09, 2010-14 & 2015)
+
 SESAVGALL (to account for the lack of inputs in 2024)
 
 Control Variables:
+
 Locale (suburban, town, & rural)
+
 State Fixed Effects (absorb(fips) vce(cluster fips)
+
 Enrollment (totenrl)
 
 ## Strategy
