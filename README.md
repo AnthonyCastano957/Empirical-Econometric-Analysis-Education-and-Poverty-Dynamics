@@ -55,8 +55,10 @@ performance advantages relative to urban baselines
 
 ## Regression Models Summary
 <img width="688" height="37" alt="Screenshot 2026-04-23 200706" src="https://github.com/user-attachments/assets/2f3872a5-0474-45f6-a896-6344bbba4903" />
+
 Overall Model Fit (R^2): 0.4866
 Key Coefficients:
+
 Child Poverty Rate (Beta 1): -2.392  (p < 0.001)
 Child Poverty Squared (Beta_2): +3.908 (p < 0.001)
 Socioeconomic Index (Beta 3): +0.294 (p < 0.001)
