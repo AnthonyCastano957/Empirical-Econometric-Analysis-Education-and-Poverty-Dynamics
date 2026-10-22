@@ -22,21 +22,15 @@ What is the relationship between poverty and student achievement on a district l
 
 ## Methodology
 Our independent variables were as follows:
-
-Poverty Rate (SAIPE)
-
-SESAVG (Socioeconomic Status average 2005-09, 2010-14 & 2015)
-
-SESAVGALL (to account for the lack of inputs in 2024)
+- Poverty Rate (SAIPE)
+- SESAVG (Socioeconomic Status average 2005-09, 2010-14 & 2015)
+- SESAVGALL (to account for the lack of inputs in 2024)
 
 
 Control Variables:
-
-Locale (suburban, town, & rural)
-
-State Fixed Effects (absorb(fips) vce(cluster fips)
-
-Enrollment (totenrl)
+- Locale (suburban, town, & rural)
+- State Fixed Effects (absorb(fips) vce(cluster fips)
+- Enrollment (totenrl)
 
 ## Strategy
 1. Merge SEDA with Covariate, Crosswalk, and SAIPE (overall sample size is 97,977 observations)
@@ -58,27 +52,23 @@ performance advantages relative to urban baselines
 
 Overall Model Fit (R^2): 0.4866
 Key Coefficients:
-
-Child Poverty Rate (Beta 1): -2.392  (p < 0.001)
-
-Child Poverty Squared (Beta_2): +3.908 (p < 0.001)
-
-Socioeconomic Index (Beta 3): +0.294 (p < 0.001)
-
-Total Enrollment (Beta 4): -8.51 * 10^-7 (p = 0.021)
+- Child Poverty Rate (Beta 1): -2.392  (p < 0.001)
+- Child Poverty Squared (Beta_2): +3.908 (p < 0.001)
+- Socioeconomic Index (Beta 3): +0.294 (p < 0.001)
+- Total Enrollment (Beta 4): -8.51 * 10^-7 (p = 0.021)
 
 ## Data Sources:
 1. Stanford Education Data Archive (SEDA v2024.3):
-   seda_admindist_long_cs_2024.3.dta (Standardized mean test scores)
-   seda_cov_admindist_annual_2024.3.dta (District covariates & SES variables)
-   seda_crosswalk_2024.3.dta (NCES leaid mapping file)
+   - seda_admindist_long_cs_2024.3.dta (Standardized mean test scores)
+   - seda_cov_admindist_annual_2024.3.dta (District covariates & SES variables)
+   - seda_crosswalk_2024.3.dta (NCES leaid mapping file)
 
 2. U.S. Census Bureau:
-   districts_saipe (Small Area Income and Poverty Estimates for ages 5–17)
+   - districts_saipe (Small Area Income and Poverty Estimates for ages 5–17)
 
 ## Academic References
-Gamoran, A., & An, B. P. (2016). Effects of School Segregation and School Resources in a Changing Policy Context. Educational Evaluation and Policy Analysis, 38(1), 43–64.
-Hegedus, A., & Nwea, E. (2018). Evaluating the Relationships Between Poverty and School Performance. NWEA Research Whitepaper.
-Reardon, S. F., et al. (2026). Stanford Education Data Archive (Version SEDA 2024.3). Stanford University.
-U.S. Census Bureau (2026). Small Area Income and Poverty Estimates (SAIPE) Program. Project No. P-7502872.
+- Gamoran, A., & An, B. P. (2016). Effects of School Segregation and School Resources in a Changing Policy Context. Educational Evaluation and Policy Analysis, 38(1), 43–64.
+- Hegedus, A., & Nwea, E. (2018). Evaluating the Relationships Between Poverty and School Performance. NWEA Research Whitepaper.
+- Reardon, S. F., et al. (2026). Stanford Education Data Archive (Version SEDA 2024.3). Stanford University.
+- U.S. Census Bureau (2026). Small Area Income and Poverty Estimates (SAIPE) Program. Project No. P-7502872.
 
