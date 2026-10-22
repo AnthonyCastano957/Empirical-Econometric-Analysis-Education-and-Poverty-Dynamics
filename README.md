@@ -41,9 +41,16 @@ Control Variables:
 
 ## Key Findings:
 1. Test scores decline sharply at low to moderate levels of poverty, and flatten as poverty reaches extreme levels.
-2. Child poverty exerts a strong negative effect on test scores, but long-term structural socioeconomic status (sesavgall)
-is the largest predictor of academic performance.
-3. Controlling for state fixed effects accounts for baseline differences in state funding and 
+
+<img width="845" height="507" alt="Poverty Distribution" src="https://github.com/user-attachments/assets/c40bf7b4-4b7f-4295-ac60-ffcc6d7c4abb" />
+
+2. Child poverty exerts a strong negative effect on test scores, but long-term structural socioeconomic status (sesavgall) is the largest predictor of academic performance.
+
+<img width="845" height="507" alt="Impact on Test Scores" src="https://github.com/user-attachments/assets/e7944653-2b35-434a-94ec-fddb0f6c74a0" />
+
+<img width="845" height="507" alt="Coeff" src="https://github.com/user-attachments/assets/b6f1c811-d84b-4cf1-b244-7f16822f8bd8" />
+
+4. Controlling for state fixed effects accounts for baseline differences in state funding and 
 standardized test scaling. Holding Poverty and SES constant, suburban and town school districts show small
 performance advantages relative to urban baselines
 
@@ -56,6 +63,8 @@ Key Coefficients:
 - Child Poverty Squared (Beta_2): +3.908 (p < 0.001)
 - Socioeconomic Index (Beta 3): +0.294 (p < 0.001)
 - Total Enrollment (Beta 4): -8.51 * 10^-7 (p = 0.021)
+### Stata Regression Output:
+<img width="693" height="380" alt="Screenshot 2026-04-28 000120" src="https://github.com/user-attachments/assets/44555aba-a526-4d57-84af-f86a588a8f6a" />
 
 ## Data Sources:
 1. Stanford Education Data Archive (SEDA v2024.3):
