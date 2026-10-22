@@ -32,6 +32,12 @@ Control Variables:
 - State Fixed Effects (absorb(fips) vce(cluster fips)
 - Enrollment (totenrl)
 
+### Diagnostics & Model Performance
+
+<img width="845" height="507" alt="ResidualsPlot" src="https://github.com/user-attachments/assets/a562799b-ffcf-4437-86ea-e3260ce31f3b" />
+
+<img width="845" height="507" alt="Heatmapcorr" src="https://github.com/user-attachments/assets/4386d196-0a15-4e20-94a8-f9fb8e7415fb" />
+
 ## Strategy
 1. Merge SEDA with Covariate, Crosswalk, and SAIPE (overall sample size is 97,977 observations)
 2. Square poverty to caputre diminishing marginal harm
@@ -43,6 +49,10 @@ Control Variables:
 1. Test scores decline sharply at low to moderate levels of poverty, and flatten as poverty reaches extreme levels.
 
 <img width="845" height="507" alt="Poverty Distribution" src="https://github.com/user-attachments/assets/c40bf7b4-4b7f-4295-ac60-ffcc6d7c4abb" />
+
+<img width="845" height="507" alt="Poverty_Scatter" src="https://github.com/user-attachments/assets/a5c84662-4816-494a-8c8e-7048a00e3395" />
+
+<img width="845" height="507" alt="improved scatter" src="https://github.com/user-attachments/assets/708462d3-ace0-47bf-82c6-e268bd41ca82" />
 
 2. Child poverty exerts a strong negative effect on test scores, but long-term structural socioeconomic status (sesavgall) is the largest predictor of academic performance.
 
