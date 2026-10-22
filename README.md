@@ -10,8 +10,11 @@ district demographic covariates, and analyzing how economic scarcity impacts mea
 
 ## Authors and Contributors (Team 5)
 Abi Mangual (PowerPoint presentation and organizer)
+
 William Schriever (Research and Writing)
+
 Anthony Castano (Primary Data Analyst)
+
 Michael Carter (Research and Writing)
 
 ## Primary Research Question
